@@ -48,3 +48,24 @@ a[target="_blank"]:hover:after {
   width: 150px;
   height: 150px;
 }
+
+@media (max-width: 600px) {
+  .cont {
+    display: block;
+    width: 20rem;
+  }
+  .title {
+    display: flex;
+    padding: 1em;
+    font-size: 0.5em;
+  }
+  .ingr {
+    list-style-type: circle;
+    margin: 0;
+    width: 70vw;
+  }
+  .image {
+    margin-top: 3rem;
+    margin-left: 30%;
+  }
+}
