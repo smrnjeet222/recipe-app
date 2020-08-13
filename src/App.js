@@ -6,7 +6,7 @@ import Recipe from "./Recipe";
 const App = () => {
   const APP_ID = "c594c7f3";
   const APP_KEY = "4fbcce559a9d3505fe77f3332ef64359";
-  let arr = ["egg", "banana", "mango", "grapes", "chocolate", "pizza", "pasta"];
+  let arr = ["egg", "banana", "mango", "grapes", "chocolate", "pasta"];
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState(
