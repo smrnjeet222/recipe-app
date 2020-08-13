@@ -1,0 +1,50 @@
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px gray;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  min-width: 40%;
+}
+
+.title {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: blueviolet;
+  padding-left: 21px;
+}
+
+a[target="_blank"]:hover:after {
+  font-family: "FontAwesome";
+  content: " \f08e";
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: stretch;
+}
+
+.ingr {
+  list-style-type: circle;
+  margin: auto;
+  margin-left: 2em;
+  width: 30rem;
+}
+
+.image {
+  border-radius: 20%;
+  margin: 1rem;
+  margin-right: 3rem;
+  width: 150px;
+  height: 150px;
+}
