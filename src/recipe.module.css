@@ -11,13 +11,22 @@
 }
 
 .title {
+  display: inline-block;
+  word-wrap: break-word;
+  margin: 0 1rem;
+  width: 40vw;
   color: cornflowerblue;
+  text-align: center;
   text-decoration: none;
 }
 
 .title:hover {
   color: blueviolet;
-  padding-left: 21px;
+}
+
+a[target="_blank"]:after {
+  content: " ";
+  margin-left: 21px;
 }
 
 a[target="_blank"]:hover:after {
@@ -36,8 +45,10 @@ a[target="_blank"]:hover:after {
 
 .ingr {
   list-style-type: circle;
+  overflow-wrap: break-word;
   margin: auto;
   margin-left: 2em;
+  padding-right: 2em;
   width: 25rem;
 }
 
@@ -52,12 +63,13 @@ a[target="_blank"]:hover:after {
 @media (max-width: 600px) {
   .cont {
     display: block;
-    width: 20rem;
+    width: 90vw;
   }
   .title {
-    display: flex;
     padding: 1em;
+    width: 90vw;
     font-size: 0.5em;
+    margin-left: 25px;
   }
   .ingr {
     list-style-type: circle;
@@ -65,7 +77,8 @@ a[target="_blank"]:hover:after {
     width: 70vw;
   }
   .image {
-    margin-top: 3rem;
-    margin-left: 30%;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
   }
 }
